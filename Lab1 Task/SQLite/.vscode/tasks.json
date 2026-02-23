@@ -1,0 +1,24 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Install Dependencies",
+			"type": "shell",
+			"command": "npm install",
+			"group": "build"
+		},
+		{
+			"label": "Run Server",
+			"type": "shell",
+			"command": "npm start",
+			"isBackground": true,
+			"group": "test"
+		},
+		{
+			"label": "Run Project",
+			"type": "shell",
+			"command": "npm install && npm start",
+			"group": "build"
+		}
+	]
+}
