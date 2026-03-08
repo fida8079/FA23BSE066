@@ -1,5 +1,13 @@
 # 📚 Library Management System (LMS)
 
+
+<img width="1919" height="949" alt="Screenshot 2026-03-08 120020" src="https://github.com/user-attachments/assets/8bbadd83-3b47-4b1c-be2d-4810b9740da4" />
+<img width="1919" height="902" alt="Screenshot 2026-03-08 120042" src="https://github.com/user-attachments/assets/076c1e39-7505-4f4a-ba7a-aef14e075e95" />
+<img width="1919" height="944" alt="Screenshot 2026-03-08 120059" src="https://github.com/user-attachments/assets/aeef2bcb-c7f8-4e07-9d44-97b1a130342b" />
+<img width="1919" height="884" alt="Screenshot 2026-03-08 120129" src="https://github.com/user-attachments/assets/6a632fc5-1b59-4f27-9f83-b353ce95635c" />
+
+
+
 > A full-stack Library Management System built with **React** (frontend) + **Node.js/Express** (backend), following **MVC architecture** and **RESTful API** principles.
 
 ---
