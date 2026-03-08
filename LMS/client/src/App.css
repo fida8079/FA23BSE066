@@ -1,0 +1,12 @@
+/**
+ * App.css — Application-level overrides
+ * Intentionally minimal — Bootstrap 5 handles all base styles.
+ * Any app-wide adjustments go here, not in index.css.
+ */
+
+/* Ensure the root container takes full width (Bootstrap container handles max-width) */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

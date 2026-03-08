@@ -1,0 +1,111 @@
+/**
+ * index.css — Global Styles
+ * Clean reset compatible with Bootstrap 5.
+ * Custom variables and subtle enhancements beyond Bootstrap.
+ */
+
+/* ─── Custom CSS Variables ──────────────────────────────────────────────────── */
+:root {
+  --lms-primary: #0d6efd;
+  --lms-bg: #f0f4f8;
+  --lms-card-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --lms-transition: 0.2s ease-in-out;
+}
+
+/* ─── Base Reset ────────────────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: var(--lms-bg);
+  color: #212529;
+  min-height: 100vh;
+}
+
+/* ─── Navbar Enhancements ───────────────────────────────────────────────────── */
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
+
+.nav-link {
+  transition: opacity var(--lms-transition);
+}
+
+.nav-link:hover {
+  opacity: 0.85;
+}
+
+/* ─── Card Enhancements ─────────────────────────────────────────────────────── */
+.card {
+  border-radius: 12px !important;
+  transition: transform var(--lms-transition), box-shadow var(--lms-transition);
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* ─── Table Enhancements ────────────────────────────────────────────────────── */
+.table th {
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6c757d;
+}
+
+/* ─── Form Enhancements ─────────────────────────────────────────────────────── */
+.form-control:focus {
+  border-color: var(--lms-primary);
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+/* ─── Hero Section (Home Page) ──────────────────────────────────────────────── */
+.lms-hero {
+  background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+  color: #fff;
+  padding: 80px 0 60px;
+}
+
+.lms-hero h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.lms-hero p {
+  font-size: 1.15rem;
+  opacity: 0.9;
+}
+
+/* ─── Stat Cards (Home Page) ────────────────────────────────────────────────── */
+.stat-card {
+  border-left: 4px solid var(--lms-primary) !important;
+  border-radius: 10px !important;
+}
+
+/* ─── Button Transitions ────────────────────────────────────────────────────── */
+.btn {
+  transition: all var(--lms-transition) !important;
+}
+
+/* ─── Modal Overlay ─────────────────────────────────────────────────────────── */
+.modal-backdrop.show {
+  opacity: 0.5;
+}
+
+/* ─── Footer ────────────────────────────────────────────────────────────────── */
+footer {
+  background-color: #212529;
+  color: #adb5bd;
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 0.875rem;
+  margin-top: auto;
+}
